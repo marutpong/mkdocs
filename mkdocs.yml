@@ -1,11 +1,14 @@
-site_name: MkDocs
-site_url: http://www.mkdocs.org
+site_name: GoGo Board
+site_url: http://www.gogoboard.org
 site_description: Project documentation with Markdown.
 site_author: MkDocs Team
 
 repo_url: https://github.com/mkdocs/mkdocs/
 edit_uri: ""
 
+theme:
+    name: material
+    
 pages:
     - Home: index.md
     - User Guide:
@@ -19,7 +22,10 @@ pages:
         - Release Notes: about/release-notes.md
         - Contributing: about/contributing.md
         - License: about/license.md
-
+    - GoGo Board: 
+        - Overview of the GoGo Board: gogo/01-overview.md
+        - Setup and Basic Testing: gogo/02-setup.md
+        - Using Sensors: gogo/03-sensors.md
 extra_css:
     - css/extra.css
 
